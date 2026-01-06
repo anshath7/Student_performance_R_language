@@ -77,6 +77,7 @@ ggplot(st_data, aes(x = Grade1, y = FinalGrade)) +
   labs(title = "Relationship Between First and Final Grade", x = "Grade1", y = "Final Grade")
 
 # Boxplot: Final Grade by Internet Access
-ggplot(student_data, aes(x = internet, y = FinalGrade)) +
+ggplot(st_data, aes(x = internet, y = FinalGrade)) +
   geom_boxplot(fill = "purple") +
   labs(title = "Final Grade by Internet Access", x = "Internet Access", y = "Final Grade")
+
